@@ -4,6 +4,7 @@
 
 ## Tree
 
+![image](https://user-images.githubusercontent.com/10333049/56440059-3ecae400-6323-11e9-828a-e057197c1e8f.png)
 
 
 ## Build Setup
@@ -13,7 +14,7 @@
 yarn install
 
 
-### if not install
+### if not install
 
   # add pug
   yarn add pug --dev
