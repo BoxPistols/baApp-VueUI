@@ -2,6 +2,29 @@
 
 > A Vue.js project
 
+## Tree
+
+├── README.md
+├── build
+├── config
+├── dist
+├── index.html
+├── node_modules
+├── package.json
+├── src
+│   ├── App.vue
+│   ├── assets
+│   ├── components
+│   │   ├── MyCanvas.vue
+│   │   ├── page1.vue
+│   │   └── page2.vue
+│   ├── main.js
+│   └── router
+│       └── index.js
+├── static
+└── yarn.lock
+
+
 ## Build Setup
 
 ``` bash
