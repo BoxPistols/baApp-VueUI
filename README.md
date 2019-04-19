@@ -8,6 +8,17 @@
 # install dependencies
 yarn install
 
+
+### if not install
+
+  # add pug
+  yarn add pug --dev
+  yarn add -D pug pug-loader
+
+  # add sass
+  yarn add sass-loader node-sass
+
+
 # serve with hot reload at localhost:8080
 yarn run dev
 
