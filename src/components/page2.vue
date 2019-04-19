@@ -1,14 +1,12 @@
 <template lang="pug">
 .container
-  .back_org
+  //------ if need Back -------
+  //- .back_org
     .back_mol
       .back_atm
         router-link(to='/') Back
 
-  MyCanvas(:radius="radius" :width="width" :height="height")
-  MyCanvas(:radius="radius" :width="width" :height="height")
-  MyCanvas(:radius="radius" :width="width" :height="height")
-
+  MyCanvas( :width="width" :height="height")
 
 </template>
 
@@ -20,9 +18,8 @@ export default {
   },
   data() {
     return {
-      radius: 50,
-      width: 300,
-      height: 200,
+      // width: 300,
+      // height: 200,
     }
   }
 }
