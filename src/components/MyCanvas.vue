@@ -31,7 +31,7 @@ export default {
 
 <style lang="sass" scoped>
 .canvas
-  width: auto
+  width: 100vw
   height: auto
   margin: 0 auto
   // background-color: rgba(255, 255, 255, .2)
