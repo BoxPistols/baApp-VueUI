@@ -14,7 +14,7 @@
   .baApp_post_org
    .baApp_post_mol
     .baApp_post_atm-button
-      router-link(to='/page2') Canvas
+      router-link(to='/page2') Start
 
   .baApp_att_org
    .baApp_att_mol
@@ -46,11 +46,13 @@ export default {
  padding: 0
 
 .wrap
-  // background: #222
+  background-color: #222
   background-image: url(https://picsum.photos/1600/1200/?image=158)
   background-size: cover
   width: 100%
+  min-height: 100vh
   height: 100%
+
   .baApp
     &_lay
       padding: 20px
@@ -59,7 +61,8 @@ export default {
       color: #f9f9f9
       max-width: 768px
       margin: auto
-      height: 100vh
+      min-height: 100vh
+      height: 100%
     &_head_org
       padding-top: 40px
     &_head_mol
@@ -85,11 +88,11 @@ export default {
           color: #fff
           font-weight: 600
           text-decoration: none
-          font-size: 2em
+          font-size: 3em
           background-color: darkorange
           border: 4px solid #fff
           border-radius: 15px
-          padding: 20px 80px
+          padding: 10px 60px
           box-shadow: 0px 6px 0 #222
     &_att
       &_org
